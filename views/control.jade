@@ -1,0 +1,18 @@
+!!! 5
+html
+	head
+		title demo control
+		meta(name="viewport", content="width=device-width, minimum-scale=1.0, maximum-scale=1.0")
+		meta(name="apple-mobile-web-app-capable", content="yes")
+		link(href="/css/reset.css", rel="stylesheet", type="text/css")
+		link(href="/css/control.css", rel="stylesheet", type="text/css")
+		script(src="/socket.io/socket.io.js")
+		script(src="/js/control.js")
+
+	body
+		#msg= "waiting to take control"
+		a(href="#", id="goleft")= 'LEFT'
+		a(href="#", id="goright")= 'RIGHT'
+		a(href="#", id="center")= 'C'
+		a(href="#", id="init")= 'CONTROL ME'
+		a(href="#", id="quilombo")= 'SHOOT ME'

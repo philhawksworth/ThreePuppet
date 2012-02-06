@@ -1,0 +1,213 @@
+body {
+	background: grey;
+}
+a {
+	color: #ffffff;
+	display: block;
+	font-family: helvetiva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	text-decoration: none;
+	text-align: center;
+}
+#init {
+	background: green;
+	display: none;
+	height: 80px;
+	left: 40%;
+	padding-top: 30px;
+	top: 50px;
+	width: 110px;
+}
+
+#quilombo {
+	background: red;
+	display: none;
+	height: 80px;
+	padding-top: 30px;
+	right: 0;
+	width: 110px;
+}
+
+#goleft, #goright {
+	background: red;
+	display: none;
+	height: 60px;
+	padding-top: 40px;
+	top: 334px;
+	width: 100px;
+}
+#center {
+	background: blue;
+	display: none;
+	height: 50px;
+	padding-top: 30px;
+	top: 344px;
+	width: 80px;
+}
+
+
+.or0 #goleft {
+	left: 334px;
+	top: 100px;
+}
+.or0 #goright {
+	bottom: 100px;
+	right: 334px;
+	top: auto;
+}
+.or0 #center {
+	left: 344px;
+	top: 45%;
+}
+
+.or90 #goleft {
+	left: 100px;
+}
+.or90 #goright {
+	right: 100px;
+}
+.or90 #center {
+	left: 45%;
+}
+
+.or180 #goleft {
+	bottom: 100px;
+	right: 334px;
+	top: auto;
+}
+.or180 #goright {
+	left: 334px;
+	top: 100px;
+}
+.or180 #center {
+	left: 45%;
+}
+
+.or-90 #goleft {
+	right: 100px;
+}
+
+.or-90 #goright {
+	left: 100px;
+}
+.or-90 #center {
+	right: 45%;
+}
+/*
+#goleft {
+	left: 100px;
+}
+#goright {
+	right: 100px;
+}
+
+@media only screen and (orientation:portrait) {
+	#goleft {
+		left: 334px;
+		top: 100px;
+	}
+	#goright {
+		bottom: 100px;
+		right: 334px;
+		top: auto;
+	}
+}
+*/
+
+
+/*
+#init {
+	display: block;
+	margin: 50px;
+}
+#quilombo {
+	display: block;
+	margin: 200px;
+}*/
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	#init {
+		background: green;
+		height: 80px;
+		left: 30%;
+		padding-top: 30px;
+		top: 50px;
+		width: 110px;
+	}
+
+	#quilombo {
+		background: red;
+		display: none;
+		height: 50px;
+		padding-top: 15px;
+		right: 0;
+		width: 65px;
+	}
+
+	#goleft, #goright {
+		background: red;
+		display: none;
+		height: 50px;
+		padding-top: 20px;
+		top: 75px;
+		width: 70px;
+	}
+	#center {
+		background: blue;
+		display: none;
+		height: 50px;
+		padding-top: 20px;
+		top: 75px;
+		width: 70px;
+	}
+
+	.or0 #goleft {
+		left: 125px;
+		top: 50px;
+	}
+	.or0 #goright {
+		bottom: 50px;
+		right: 125px;
+		top: auto;
+	}
+	.or0 #center {
+		left: 125px;
+		top: 40%;
+	}
+
+	.or90 #goleft {
+		left: 10px;
+	}
+	.or90 #goright {
+		right: 10px;
+	}
+	.or90 #center {
+		left: 40%;
+	}
+
+	.or180 #goleft {
+		bottom: 100px;
+		right: 334px;
+		top: auto;
+	}
+	.or180 #goright {
+		left: 334px;
+		top: 100px;
+	}
+	.or180 #center {
+		left: 45%;
+	}
+
+	.or-90 #goleft {
+		right: 10px;
+	}
+
+	.or-90 #goright {
+		left: 10px;
+	}
+	.or-90 #center {
+		right: 40%;
+	}
+}

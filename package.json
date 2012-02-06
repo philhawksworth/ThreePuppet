@@ -1,0 +1,15 @@
+{
+  "name": "puppet-example",
+  "version": "0.0.2",
+  "dependencies": {
+    "connect": "",
+    "express": "",
+    // "qs": "",
+    // "formidable": "",
+    // "mime": "",
+    "jade": "",
+    "gzippo": "",
+    "ua-parser": "",
+    "socket.io": ""
+  }
+}
